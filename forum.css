@@ -80,16 +80,15 @@ select:focus,
 input[type="date"]{
     background-color: #73AD21;
     padding: 15px;
-    position: relative;
+    position: absolute;
     transform: translate(-50%,-50%);
-    top: -10px;
+    top: 22.5%;
     left: 65%;
     color: #ffffff;
     font-size: 18px;
     border: none;
     border-radius: 10px;
     outline:none;
-    margin-top: 40px;
 }
 .box{
     display: flex;
