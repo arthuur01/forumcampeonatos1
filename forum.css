@@ -116,7 +116,11 @@ input[type="date"]{
 .container2 h1{
 font-size: large;
 }
-
+@media (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
     
     
 
