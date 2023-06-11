@@ -266,7 +266,20 @@ select option {
     background-color: transparent;
 }
 
-
+input[type="date"]{
+    background-color: #73AD21;
+    padding: 15px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: -2px;
+    left: 50%;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    outline:none;
+}
 
 .box{
     display: flex;
