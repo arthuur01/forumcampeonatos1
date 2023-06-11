@@ -116,11 +116,38 @@ input[type="date"]{
 .container2 h1{
 font-size: large;
 }
-@media (max-width: 600px) {
-  body {
-    display: flex;
-    flex-direction: column;
-  }
-    
+@media only screen and (max-width: 1024px) {
+    .box {
+        padding-right: 20%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .box {
+        padding-right: 10%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box {
+        padding-right: 0%;
+    }
+}
+
+.container2{
+    position: relative;
+    background: black;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 250px;
+    height: 200px;
+    color: #73AD21;
+    margin-bottom: 20px;
+}
+
+.container2 h1{
+    font-size: large;
+}
     
 
