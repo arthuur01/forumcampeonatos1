@@ -80,7 +80,7 @@ select:focus,
 input[type="date"]{
     background-color: #73AD21;
     padding: 15px;
-    position: absolute;
+    position: relative;
     transform: translate(-50%,-50%);
     top: -10px;
     left: 65%;
